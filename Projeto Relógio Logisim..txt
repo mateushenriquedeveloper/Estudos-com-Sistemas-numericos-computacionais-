@@ -1,0 +1,4 @@
+ Esteticamente utilizei o ponto dos displays hexadecimais para separar as contagens de horas/minutos/segundos e deixei porém não ficou tão bonito então no circuito usei um componente de Led e uma constante com valor 1 para manter ligado, para Simular como se fosse os dois pontos de um relógio. E também fiz mudanças de cores dos digitos do display Hexadecimal, a frêquencia de 1 Hz também selecionada.
+Também usei dois distribuidores, que tem a função de quando receber uma entrada distrubuir em saídas.
+ Utilizei um contador para mover o relógio, em hexadecimal, ele tem uma saída que mostra os valores em binário, também dois distribuidores um de unidade e outro dezena das horas. Também como sugestão do professor usei do contador uma entrada com o nome clear, então eu usei o clear assíncrono, pois ele consegue zerar. 
+então, utilizando 3 portas AND, liguei as saídas 2 e 1 dos distribuidores, e depois, fiz a ligação em outra AND e dessa para a Saída.
